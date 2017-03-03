@@ -1,0 +1,26 @@
+/*
+Your Framework Name
+Your Name
+Project GitHub URL
+Version 1.0.0-alpha
+License: MIT
+*/
+/**
+ * Elements - Typography
+ *
+ * @since 1.0.0-alpha1
+ */
+body {
+  color: #404040;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/**
+ * Layouts - Containers
+ *
+ * @since 1.0.0-alpha1
+ */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}

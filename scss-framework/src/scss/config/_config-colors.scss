@@ -1,0 +1,86 @@
+///
+// Config - Colors
+//
+// Root variables for all colors and color variables used throughout
+// this framework.
+//
+// @since 1.0.0-alpha1
+///
+
+
+///
+// Table of Contents
+//
+// Brand
+//   Brand Primary
+// Grayscale
+//   Black
+//   Gray Darker
+//   Gray Dark
+//   Gray
+//   Gray Light
+//   Gray Lighter
+//   White
+// Rainbow
+//   Red
+//   Orange
+//   Yellow
+//   Green
+//   Blue
+//   Purple
+// States
+//   Danger
+//   Info
+//   Success
+//   Warning
+///
+
+
+///
+// Config - Colors - Brand
+//
+// @since 1.0.0-alpha1
+///
+
+$color-brand: #d2112d !default;
+
+
+///
+// Config - Colors - Grayscale
+//
+// @since 1.0.0-alpha1
+///
+
+$color-black: #000 !default;
+$color-gray-darker: #202020 !default;
+$color-gray-dark: #404040 !default;
+$color-gray: #808080 !default;
+$color-gray-light: #c0c0c0 !default;
+$color-gray-lighter: #e0e0e0 !default;
+$color-white: #fff !default;
+
+
+///
+// Config - Colors - Rainbow
+//
+// @since 1.0.0-alpha1
+///
+
+$color-red: $color-brand !default;
+$color-orange: #d43900 !default;
+$color-yellow: #f6c54e !default;
+$color-green: #0a7a44 !default;
+$color-blue: #006dbb !default;
+$color-purple: #421349 !default;
+
+
+///
+// Config - Colors - States
+//
+// @since 1.0.0-alpha1
+///
+
+$color-state-info: $color-blue !default;
+$color-state-danger: $color-red !default;
+$color-state-success: $color-green !default;
+$color-state-warning: $color-orange !default;

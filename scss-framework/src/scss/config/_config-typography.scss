@@ -1,0 +1,45 @@
+///
+// Config - Colors
+//
+// Root variables for all colors and color variables used throughout
+// this framework.
+//
+// @since 1.0.0-alpha1
+///
+
+
+///
+// Table of Contents
+//
+// Font Colors
+//   Base
+// Font Families
+//   Serif
+//   Sans Serif
+//   Mono
+//   Base
+///
+
+
+///
+// Config - Typography - Font Colors
+//
+// @since 1.0.0-alpha1
+///
+
+// Define the site-wide default font color
+$color-font-base: $color-gray-dark !default;
+
+
+///
+// Config - Typography - Font Families
+//
+// @since 1.0.0-alpha1
+///
+
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+// Define the site-wide default font family
+$font-family-base: $font-family-sans !default;
